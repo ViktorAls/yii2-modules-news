@@ -86,7 +86,6 @@ class PostController extends Controller
 	public function actionUpdate($id)
 	{
 		$model = $this->findModel($id);
-		\Yii::$app->session->setFlash('access', 'fgd');
 		if ($model->load(Yii::$app->request->post()) && $model->save()) {
 			return $this->redirect(['view', 'id' => $model->id_post]);
 		}
@@ -113,7 +112,6 @@ class PostController extends Controller
 		$model = post::findOne($id);
 		if ($model->activ == 0){
 			$model->activ = 1;
-			$model->id_user = yii::$app->user->identity->getId();
 			$model->save();
 			$this->redirect(['post/index']);
 		} else $this->redirect(['post/index']);

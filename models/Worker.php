@@ -18,26 +18,28 @@ class Worker extends \yii\db\ActiveRecord
     {
         return 'worker';
     }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function rules()
-    {
-        return [
-            [['id_prepod'], 'integer'],
-            [['name'], 'string', 'max' => 50],
-        ];
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function attributeLabels()
-    {
-        return [
-            'id_prepod' => 'Id Prepod',
-            'name' => 'Name',
-        ];
-    }
+	
+	/**
+	 * {@inheritdoc}
+	 */
+	public function rules()
+	{
+		return [
+			[['name','surname','patronymic','photo'], 'string', 'max' => 50],
+		];
+	}
+	
+	/**
+	 * {@inheritdoc}
+	 */
+	public function attributeLabels()
+	{
+		return [
+			'id_prepod' => 'Id Prepod',
+			'name' => 'Имя',
+			'surname'=>'Фамилия',
+			'patronymic'=>'Отчество'
+		];
+	}
+}
 }

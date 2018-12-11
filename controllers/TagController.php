@@ -3,7 +3,7 @@
 	namespace viktorals\news\controllers;
 
 use Yii;
-use common\models\tag;
+use viktorals\news\models\Tag;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
