@@ -42,4 +42,3 @@ class Worker extends \yii\db\ActiveRecord
 		];
 	}
 }
-}
