@@ -1,8 +1,7 @@
 <?php
 
 use kartik\editable\Editable;
-	use yii\bootstrap4\ActiveForm;
-	use yii\helpers\Html;
+use yii\helpers\Html;
 	use yii\grid\GridView;
     use yii\widgets\Pjax;
     
