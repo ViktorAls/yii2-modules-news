@@ -1,6 +1,6 @@
 <?php
 	
-	namespace frontend\modules\posts\controllers;
+	namespace viktorals\post\controllers;
 
 use Yii;
 use common\models\tag;

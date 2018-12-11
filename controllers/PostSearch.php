@@ -1,6 +1,6 @@
 <?php
 	
-	namespace frontend\modules\posts\controllers;
+	namespace viktorals\post\controllers;
 
 use frontend\modules\posts\models\Post;
 use yii\base\Model;

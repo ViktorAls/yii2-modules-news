@@ -1,6 +1,6 @@
 <?php
 	
-	namespace frontend\modules\posts\models;
+	namespace viktorals\post\models;
 	
 /**
  * This is the model class for table "image_manager".
