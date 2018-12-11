@@ -60,7 +60,7 @@ class m130522_201442_init extends Migration
 		    'fk-tagPost-id_tag',
 		    'tagPost',
 		    'id_tag',
-		    'post',
+		    'tag',
 		    'id_tag',
 		    'CASCADE'
 	    );
@@ -84,7 +84,7 @@ class m130522_201442_init extends Migration
 
     public function down()
     {
-        $this->dropTable('{{%image_manager1}}');
+        $this->dropTable('{{%image_manager}}');
 	    $this->dropTable('{{%tag}}');
 	    $this->dropTable('{{%tagPost}}');
 	    $this->dropTable('{{%post}}');
