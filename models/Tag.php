@@ -1,6 +1,6 @@
 <?php
 	
-	namespace viktorals\post\models;
+	namespace viktorals\news\models;
 
 use yii\helpers\ArrayHelper;
 

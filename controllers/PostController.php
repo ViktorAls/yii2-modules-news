@@ -1,6 +1,6 @@
 <?php
 
-namespace viktorals\post\controllers;
+namespace viktorals\news\controllers;
 
 use frontend\modules\posts\models\ImageManager;
 use frontend\modules\posts\models\Post;

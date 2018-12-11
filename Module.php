@@ -5,7 +5,7 @@
 /**
  * post module definition class
  */
-class post extends \yii\base\Module
+class module extends \yii\base\Module
 {
     /**
      * {@inheritdoc}

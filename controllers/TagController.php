@@ -1,6 +1,6 @@
 <?php
 	
-	namespace viktorals\post\controllers;
+	namespace viktorals\news\controllers;
 
 use Yii;
 use common\models\tag;
