@@ -225,9 +225,15 @@ class Post extends \yii\db\ActiveRecord
 	public function getImagesLinks(){
 		$imagesUrl=[];
 		$dir =  Url::home(true).'/uploads/images/posts/Post/'.$this->id_post;
+		$no_img = Url::home(true).'/img/noimage.jpg';
 		$a = ArrayHelper::getColumn($this->images,'imagesUrl');
 		foreach ($a as $ima){
-			array_push($imagesUrl,$dir.'/'.$ima);
+			if (is_file($dir.'/'.$ima)) {
+				array_push($imagesUrl, $dir . '/' . $ima);
+			} else
+			{
+				array_push($imagesUrl, $no_img);
+			}
 		}
 		return $imagesUrl;
 	}
