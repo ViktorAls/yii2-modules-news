@@ -88,7 +88,7 @@ use yii\helpers\Url;
 	            ]);?>
              
 	            <?=$form->field($model, 'tags_arr')->widget(Select2::classname(), [
-	                    'data'=>\common\models\Tag::getFullTags(),
+	                    'data'=>\viktorals\news\models\Tag::getFullTags(),
 		            'options' => ['placeholder' => 'Выбирите теги...', 'multiple' => true],
 		            'pluginOptions' => [
 			            'tokenSeparators' => [',', ' '],
