@@ -46,7 +46,7 @@ $this->title = 'Управление постами сайта';
 							    'filter' => kartik\select2\Select2::widget([
 							            'model'=>$searchModel,
 							            'attribute'=>'id_user',
-                                    'data' => \common\models\Post::getUserList(),
+                                    'data' => \viktorals\news\models\Post::getUserList(),
                                     'options' => [
                                         'placeholder' => 'Поиск по автору...',
                                     ],
