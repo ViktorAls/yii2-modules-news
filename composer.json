@@ -1,0 +1,21 @@
+{
+    "name": "viktorals/yii2-modules-news",
+    "description": " module for creating news on the site",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","news","tags-images-post "],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ViktorAls",
+            "email": "vip.viktor98@inbox.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "viktorals\\post\\": ""
+        }
+    }
+}
