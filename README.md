@@ -17,4 +17,4 @@ php composer.phar require --prefer-dist viktorals/yii2-modules-news "*"
 "viktorals/yii2-modules-news": "*"
 ```
 
-в требуемый раздел вашего composer.jsonфайла.
+в требуемый раздел вашего composer.json файла.
