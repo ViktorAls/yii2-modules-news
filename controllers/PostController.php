@@ -2,8 +2,9 @@
 
 namespace viktorals\news\controllers;
 
-use frontend\modules\posts\models\ImageManager;
-use frontend\modules\posts\models\Post;
+
+use viktorals\news\models\ImageManager;
+use viktorals\news\models\Post;
 use Yii;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -127,7 +128,7 @@ class PostController extends Controller
 	 */
 	protected function findModel($id)
 	{
-		if (($model = post::findOne($id)) !== null) {
+		if (($model = Post::findOne($id)) !== null) {
 			return $model;
 		}
 		

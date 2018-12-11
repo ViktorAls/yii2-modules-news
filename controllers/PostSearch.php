@@ -2,7 +2,7 @@
 	
 	namespace viktorals\news\controllers;
 
-use frontend\modules\posts\models\Post;
+use viktorals\news\models\Post;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
@@ -41,7 +41,7 @@ class PostSearch extends post
      */
     public function search($params)
     {
-        $query = post::find()->asArray()->with('worker','tags')->orderBy(['id_post'=>SORT_DESC]);
+        $query = Post::find()->asArray()->with('worker','tags')->orderBy(['id_post'=>SORT_DESC]);
 
         // add conditions that should always apply here
 
