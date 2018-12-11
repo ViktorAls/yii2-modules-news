@@ -1,8 +1,8 @@
-Новостной модуль для yii2\
+Новостной модуль для yii2
 ====================
 Модуль для создания новостей для сайта
 
-Installation
+Установка
 ------------
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
