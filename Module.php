@@ -1,11 +1,11 @@
 <?php
 	
-	namespace frontend\modules\posts;
+	namespace viktorals\news;
 
 /**
  * post module definition class
  */
-class module extends \yii\base\Module
+class Module extends \yii\base\Module
 {
     /**
      * {@inheritdoc}
