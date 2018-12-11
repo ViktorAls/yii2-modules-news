@@ -11,7 +11,13 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0"
+        "yiisoft/yii2": "~2.0.0",
+        "kartik-v/yii2-widget-typeahead": "dev-master",
+        "vova07/yii2-imperavi-widget": "*",
+        "kartik-v/yii2-widget-fileinput": "dev-master",
+        "kartik-v/yii2-popover-x": "dev-master",
+        "kartik-v/yii2-editable": "dev-master",
+        "kartik-v/yii2-widget-select2": "dev-master",
     },
     "autoload": {
         "psr-4": {
