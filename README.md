@@ -26,7 +26,7 @@ php composer.phar require --prefer-dist viktorals/yii2-modules-news "*"
 и второй части, добавление и редактирование тегов к новости. 
 По умолчанию пути к сохраняем файлам установлен через alias, для этого добавте их в bootstrap файл в папке config вашего проекта.
 
-	`Yii::setAlias('@icon', dirname(dirname(dirname(__DIR__))).'/public_html/uploads/images/posts/icon/'); - иконки
+	Yii::setAlias('@icon', dirname(dirname(dirname(__DIR__))).'/public_html/uploads/images/posts/icon/'); - иконки
 	Yii::setAlias('@images', dirname(dirname(dirname(__DIR__))).'/public_html/uploads/images/posts/post/');` - папки постов
      
 Папка `public_html` - пбличная папка проекта. Если папки `uploads/images/posts/icon/` или `uploads/images/posts/post/` нету, то она будет создана автоматически.
