@@ -15,7 +15,8 @@
         "vova07/yii2-imperavi-widget": "*",
         "kartik-v/yii2-widget-fileinput": "*",
         "kartik-v/yii2-editable": "*",
-        "kartik-v/yii2-widget-select2": "*"
+        "kartik-v/yii2-widget-select2": "*",
+        "yiisoft/yii2-bootstrap4": "*"
     },
     "autoload": {
         "psr-4": {
