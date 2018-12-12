@@ -4,11 +4,11 @@
 =
 _Предпочтительный способ установки - composer._
 
-php composer.phar require --prefer-dist viktorals/yii2-modules-news "dev-master"
+`php composer.phar require --prefer-dist viktorals/yii2-modules-news "dev-master"`
 
 или добавить
 
-"viktorals/yii2-modules-news": "*"
+`"viktorals/yii2-modules-news": "*"`
 
 в требуемый раздел вашего composer.json файла.
 
