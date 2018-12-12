@@ -45,13 +45,9 @@ php composer.phar require --prefer-dist viktorals/yii2-modules-news "*"
 **Подключенение**
 ======================
 `Module =>[
-
-    ...
-
-news = ['class'=>'virtorals/news/Modules']
-
-...
-
+	...
+	'news' = ['class'=>'virtorals/news/Modules']
+	...
 ]`
 В папке img вашего проекта закинте любой файл noimage.jpg в случаии, если картинку поста удалить, то будет отображена она.
 
