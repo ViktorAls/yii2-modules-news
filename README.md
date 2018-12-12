@@ -47,7 +47,7 @@ php composer.phar require --prefer-dist viktorals/yii2-modules-news "dev-master"
 			'class'=>'\viktorals\news\Module',
 		],
 ],`**
-	 - в файле конфигурации вашего проекта. Для поподания на страницу модуля просто прейдите по ссылке ваш_сайт/news, предварительно выполнив миграцию.
+	 - в файле конфигурации вашего проекта. Для поподания на страницу модуля просто прейдите по ссылке ваш_сайт/news, предварительно выполнив миграцию, а также не забудьте по Alias.
 	 
 Для запуска миграции используйте команду
 `php yii migrate/up --migrationPath=@vendor/viktorals/yii2-modules-news/migrations`
