@@ -8,7 +8,7 @@
 Предпочтительный способ установки - [composer](http://getcomposer.org/download/).
 
 ```
-php composer.phar require --prefer-dist viktorals/yii2-modules-news "*"
+php composer.phar require --prefer-dist viktorals/yii2-modules-news "dev-master"
 ```
 
 или добавить
