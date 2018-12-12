@@ -32,9 +32,6 @@ php composer.phar require --prefer-dist viktorals/yii2-modules-news "dev-master"
 Папка `public_html` - публичная папка проекта. Если папки `uploads/images/posts/icon/` или `uploads/images/posts/post/` нету, то она будет создана автоматически.
 В папке поекта лежит файл стилей, для отображения стилей блоков, подключите его к проексту.
 
-Для запуска миграции используйте команду
-`php yii migrate/up --migrationPath=@vendor/viktorals/yii2-modules-news/migrations`
-
 Будет создано 5 таблиц:
 `ImagesManager` - для хронения связанных с постом картинок;
 `Post` - хронение постов;
@@ -50,7 +47,9 @@ php composer.phar require --prefer-dist viktorals/yii2-modules-news "dev-master"
 			'class'=>'\viktorals\news\Module',
 		],
 ],`**
-	 - в файле конфигурации вашего проекта. Для поподания на страницу модуля просто прейдите по ссылке ваш_сайт/news 
+	 - в файле конфигурации вашего проекта. Для поподания на страницу модуля просто прейдите по ссылке ваш_сайт/news, предварительно выполнив миграцию
+Для запуска миграции используйте команду
+`php yii migrate/up --migrationPath=@vendor/viktorals/yii2-modules-news/migrations`
 
 P.S.Первый созданный мной и закинутый на git модуль, не судите строго.
 
